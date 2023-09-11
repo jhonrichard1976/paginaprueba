@@ -1,2 +1,2 @@
 # paginaprueba
-Pagina estatica para hacer pruebasd con Openshift
+Página estática para hacer pruebas con Openshift
