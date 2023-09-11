@@ -1,2 +1,2 @@
-# paginaprueba
-Página estática para hacer pruebas con Openshift
+# osv4_html
+Ejemplo para el despliegue de una página web estática en OpenShift v4
