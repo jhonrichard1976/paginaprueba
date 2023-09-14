@@ -3,69 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ministerio de Salud</title>
+    <title>Maskoticas - Tu Fuente de Encanto</title>
     <style>
-        /* Estilos para la cabecera */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
         header {
-            background-color: #0073e6;
-            color: #fff;
+            background-color: #ff99cc;
             padding: 20px;
+            text-align: center;
         }
-
-        /* Estilos para el menú de navegación */
-        nav {
-            background-color: #005daa;
+        h1 {
             color: #fff;
-            padding: 10px;
         }
-
+        nav {
+            background-color: #333;
+        }
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
+            overflow: hidden;
         }
-
         nav li {
-            display: inline;
-            margin-right: 20px;
+            float: left;
         }
-
-        /* Estilos para el contenido principal */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
+        nav a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
         }
-
-        h1 {
-            font-size: 24px;
+        nav a:hover {
+            background-color: #ff99cc;
             color: #333;
         }
-
-        p {
-            font-size: 16px;
-            line-height: 1.5;
-            color: #666;
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Ministerio de Salud</h1>
+        <h1>Maskoticas</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Noticias</a></li>
-            <li><a href="#">Salud Pública</a></li>
-            <li><a href="#">Recursos</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#conocenos">Conócenos</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#galeria">Galería</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <h1>Últimas Noticias</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam, metus in luctus vehicula, nisl quam varius mi, sed bibendum libero arcu nec turpis.</p>
-        <p>Vivamus eget libero eu purus facilisis congue. Nullam vel velit vel justo tincidunt elementum ac id purus.</p>
-    </div>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <!-- Aquí puedes agregar tu información de contacto -->
+    </section>
+    <section id="conocenos">
+        <h2>Conócenos</h2>
+        <!-- Aquí puedes agregar información sobre tu empresa -->
+    </section>
+    <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <!-- Aquí puedes mostrar tu ubicación en un mapa o proporcionar direcciones -->
+    </section>
+    <section id="galeria">
+        <h2>Galería</h2>
+        <!-- Aquí puedes mostrar imágenes de tus productos o servicios -->
+    </section>
+    <footer>
+        © 2023 Maskoticas.com
+    </footer>
 </body>
 </html>
